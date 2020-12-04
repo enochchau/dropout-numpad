@@ -1,4 +1,4 @@
-19903316754415770
+19904923820633637
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -87004,6 +87004,13 @@ Zigbee_Module_MRF24J40MD
 12
 promicro
 ProMicro
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+promicro
+ProMicro_MiniUsb
 Pro Micro footprint
 promicro ProMicro
 0
