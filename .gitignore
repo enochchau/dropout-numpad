@@ -2,3 +2,5 @@ MX_Alps_Hybrid/
 ProMicroKiCad/
 dropout-microusb/BOM-link.xlsx
 dropout-miniusb/BOM-link.xlsx
+dropout-microusb/~$*.xls*
+dropout-miniusb/~$*.xls*
