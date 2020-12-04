@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.7)-1"
     },
-    "CreationDate":  "2020-12-04T00:37:25-08:00"
+    "CreationDate":  "2020-12-04T00:36:09-08:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "dropout-miniusb",
-      "GUID": "64726f70-6f75-4742-9d6d-696e69757362",
+      "Name": "dropout-microusb",
+      "GUID": "64726f70-6f75-4742-9d6d-6963726f7573",
       "Revision": "rev?"
     },
     "Size":
@@ -40,37 +40,37 @@
   "FilesAttributes":
   [
     {
-      "Path":  "dropout-miniusb-F_Cu.gbr",
+      "Path":  "dropout-microusb-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "dropout-miniusb-B_Cu.gbr",
+      "Path":  "dropout-microusb-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "dropout-miniusb-F_SilkS.gbr",
+      "Path":  "dropout-microusb-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "dropout-miniusb-B_SilkS.gbr",
+      "Path":  "dropout-microusb-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "dropout-miniusb-F_Mask.gbr",
+      "Path":  "dropout-microusb-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "dropout-miniusb-B_Mask.gbr",
+      "Path":  "dropout-microusb-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "dropout-miniusb-Edge_Cuts.gbr",
+      "Path":  "dropout-microusb-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
