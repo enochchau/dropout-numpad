@@ -832,23 +832,20 @@ NoConn ~ 8350 4350
 $Comp
 L power:GND #PWR0101
 U 1 1 5FD21691
-P 10250 5050
-F 0 "#PWR0101" H 10250 4800 50  0001 C CNN
-F 1 "GND" H 10255 4877 50  0000 C CNN
-F 2 "" H 10250 5050 50  0001 C CNN
-F 3 "" H 10250 5050 50  0001 C CNN
-	1    10250 5050
+P 9800 5250
+F 0 "#PWR0101" H 9800 5000 50  0001 C CNN
+F 1 "GND" H 9805 5077 50  0000 C CNN
+F 2 "" H 9800 5250 50  0001 C CNN
+F 3 "" H 9800 5250 50  0001 C CNN
+	1    9800 5250
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 5050 0    50   Input ~ 0
+Text GLabel 9300 4950 0    50   Input ~ 0
 VCC
 Text GLabel 8350 4250 2    50   Input ~ 0
 VCC
 Wire Wire Line
-	9050 4950 8550 4950
-Wire Wire Line
 	8550 5150 8550 4950
-Connection ~ 8550 4950
 Wire Wire Line
 	8550 4950 8350 4950
 Wire Wire Line
@@ -861,7 +858,7 @@ U 1 1 5FD61972
 P 9500 4950
 F 0 "J-ISP1" H 9550 4625 50  0000 C CNN
 F 1 "Conn_02x03_Counter_Clockwise" H 9550 4716 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 9500 4950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9500 4950 50  0001 C CNN
 F 3 "~" H 9500 4950 50  0001 C CNN
 	1    9500 4950
 	1    0    0    1   
@@ -871,32 +868,37 @@ Wire Wire Line
 Connection ~ 9000 4300
 Text GLabel 9000 4350 3    50   Input ~ 0
 RESET
-Text GLabel 9800 5050 2    50   Input ~ 0
+Text GLabel 9800 4950 2    50   Input ~ 0
 RESET
 Wire Wire Line
-	10250 4950 10250 5050
-Wire Wire Line
-	9800 4950 10250 4950
-Wire Wire Line
-	9050 4950 9050 4850
-Wire Wire Line
-	9050 4850 9300 4850
-Wire Wire Line
 	8650 4850 8950 4850
-Wire Wire Line
-	8950 4850 8950 4900
-Wire Wire Line
-	8950 4900 9300 4900
-Wire Wire Line
-	9300 4900 9300 4950
 Connection ~ 8650 4850
 Wire Wire Line
 	8350 4750 8750 4750
 Wire Wire Line
-	9800 4750 9800 4850
-Wire Wire Line
 	8750 5200 8750 4750
+Wire Wire Line
+	8950 5050 9300 5050
+Wire Wire Line
+	8950 4850 8950 5050
+Wire Wire Line
+	8550 4950 8850 4950
+Wire Wire Line
+	8850 4950 8850 5150
+Wire Wire Line
+	8850 5150 10100 5150
+Wire Wire Line
+	10100 5150 10100 4850
+Wire Wire Line
+	10100 4850 9800 4850
+Connection ~ 8550 4950
+Wire Wire Line
+	8750 4750 9050 4750
+Wire Wire Line
+	9050 4750 9050 4850
+Wire Wire Line
+	9050 4850 9300 4850
 Connection ~ 8750 4750
 Wire Wire Line
-	8750 4750 9800 4750
+	9800 5050 9800 5250
 $EndSCHEMATC
