@@ -1,9 +1,9 @@
 MX_Alps_Hybrid/
 ProMicroKiCad/
-dropout-microusb/BOM-link.xlsx
+Panelization.pretty/
+archive/dropout-miniusb/BOM-link.xlsx
+archive/dropout-microusb/BOM-link.xlsx
 dropout-miniusb/BOM-link.xlsx
-dropout-microusb/~$*.xls*
-dropout-miniusb/~$*.xls*
 
 # Temporary files
 *.000
@@ -33,3 +33,25 @@ fp-info-cache
 
 # Libre CAD
 *.dxf~
+
+# MS Office
+
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name MX_Only)(type KiCad)(uri G:/Documents/KiCad/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri G:/Documents/KiCad/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name Panelization)(type KiCad)(uri G:/Documents/KiCad/Panelization.pretty)(options "")(descr ""))
+)
