@@ -17,7 +17,7 @@ Amount | Part | Dimensions
 Sandwhich! (parts in this order from top down)
 *  Plate
 *  PCB
-*  Extra PCB
+*  Extra PCB or Bottom Plate
 
 ## Updates
 PCBs are labelled with revision number in the lower right corner.

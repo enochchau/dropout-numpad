@@ -647,17 +647,6 @@ F 3 "" H 7750 3650 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8350 4050 8850 4050
-$Comp
-L power:GND #PWR08
-U 1 1 5FD00893
-P 9300 3750
-F 0 "#PWR08" H 9300 3500 50  0001 C CNN
-F 1 "GND" H 9305 3577 50  0000 C CNN
-F 2 "" H 9300 3750 50  0001 C CNN
-F 3 "" H 9300 3750 50  0001 C CNN
-	1    9300 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8850 4050 8850 3900
 Wire Wire Line
@@ -809,9 +798,6 @@ F 3 "~" H 9000 3750 50  0001 C CNN
 	1    9000 3750
 	1    0    0    -1  
 $EndComp
-Connection ~ 9000 3750
-Wire Wire Line
-	9000 3750 9300 3750
 NoConn ~ 8350 4650
 Wire Wire Line
 	5650 1500 5650 2300
@@ -955,4 +941,134 @@ Wire Wire Line
 	6550 2600 6550 2750
 Wire Wire Line
 	6550 1800 7100 1800
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5FCEF804
+P 9300 1350
+F 0 "H6" H 9400 1396 50  0000 L CNN
+F 1 "MountingHole" H 9400 1305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9300 1350 50  0001 C CNN
+F 3 "~" H 9300 1350 50  0001 C CNN
+	1    9300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5FCEFF4E
+P 9300 1550
+F 0 "H7" H 9400 1596 50  0000 L CNN
+F 1 "MountingHole" H 9400 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9300 1550 50  0001 C CNN
+F 3 "~" H 9300 1550 50  0001 C CNN
+	1    9300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5FCF347A
+P 9300 1750
+F 0 "H8" H 9400 1796 50  0000 L CNN
+F 1 "MountingHole" H 9400 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9300 1750 50  0001 C CNN
+F 3 "~" H 9300 1750 50  0001 C CNN
+	1    9300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5FCF6A76
+P 9300 2000
+F 0 "H9" H 9400 2046 50  0000 L CNN
+F 1 "MountingHole" H 9400 1955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9300 2000 50  0001 C CNN
+F 3 "~" H 9300 2000 50  0001 C CNN
+	1    9300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5FCF9F59
+P 9300 2250
+F 0 "H10" H 9400 2296 50  0000 L CNN
+F 1 "MountingHole" H 9400 2205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 9300 2250 50  0001 C CNN
+F 3 "~" H 9300 2250 50  0001 C CNN
+	1    9300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5FCFE769
+P 10150 1350
+F 0 "H11" H 10250 1396 50  0000 L CNN
+F 1 "MountingHole" H 10250 1305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10150 1350 50  0001 C CNN
+F 3 "~" H 10150 1350 50  0001 C CNN
+	1    10150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 5FCFE76F
+P 10150 1550
+F 0 "H12" H 10250 1596 50  0000 L CNN
+F 1 "MountingHole" H 10250 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10150 1550 50  0001 C CNN
+F 3 "~" H 10150 1550 50  0001 C CNN
+	1    10150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 5FCFE775
+P 10150 1750
+F 0 "H13" H 10250 1796 50  0000 L CNN
+F 1 "MountingHole" H 10250 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10150 1750 50  0001 C CNN
+F 3 "~" H 10150 1750 50  0001 C CNN
+	1    10150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 5FCFE77B
+P 10150 2000
+F 0 "H14" H 10250 2046 50  0000 L CNN
+F 1 "MountingHole" H 10250 1955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10150 2000 50  0001 C CNN
+F 3 "~" H 10150 2000 50  0001 C CNN
+	1    10150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 5FCFE781
+P 10150 2250
+F 0 "H15" H 10250 2296 50  0000 L CNN
+F 1 "MountingHole" H 10250 2205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 10150 2250 50  0001 C CNN
+F 3 "~" H 10150 2250 50  0001 C CNN
+	1    10150 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 9000 3750
+Wire Wire Line
+	9000 3750 9300 3750
+$Comp
+L power:GND #PWR08
+U 1 1 5FD00893
+P 9300 3750
+F 0 "#PWR08" H 9300 3500 50  0001 C CNN
+F 1 "GND" H 9305 3577 50  0000 C CNN
+F 2 "" H 9300 3750 50  0001 C CNN
+F 3 "" H 9300 3750 50  0001 C CNN
+	1    9300 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 7600 1700 0    50   ~ 0
+Holes for PCB
+Text Notes 9000 1150 0    50   ~ 0
+Holes for Plate
+Text Notes 9950 1200 0    50   ~ 0
+Holes for Base
 $EndSCHEMATC
