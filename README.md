@@ -4,8 +4,9 @@
 ![alt text](./graphics/pcb.png "PCB")
 
 ## Firmware
-Will probably use [QMK](https://github.com/qmk/qmk_firmware), work in progress.
+Will use [QMK](https://github.com/qmk/qmk_firmware), work in progress.
 
+To compile, copy `dropout/` to your qmk directory at `.../qmk_firmware/keyboards/` and run `qmk compile -kb dropout -km default`.
 ## Sandwhich Case
 Sandwhich! (parts in this order from top down)
 *  Plate
