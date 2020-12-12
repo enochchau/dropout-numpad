@@ -4,27 +4,25 @@
 ![alt text](./graphics/pcb.png "PCB")
 
 ## Firmware
-Will probably use [QMK](https://github.com/qmk/qmk_firmware).
-Work in progress.
+Will probably use [QMK](https://github.com/qmk/qmk_firmware), work in progress.
 
 ## Sandwhich Case
+Sandwhich! (parts in this order from top down)
+*  Plate
+*  PCB
+*  Bottom Plate
+
 Amount | Part | Dimensions
 --- | --- | ---
-5 | M2 F-F standoffs | 11mm or 10mm (mini-usb)
+5 | M2 F-F standoffs | 11mm or 10mm (micro-usb)
 10 | M2 screws | 5mm
 4 | rubber bumpon feet
 
 ### M2 F-F standoff calculations:
-
 #### For mini-usb
 **5mm** _from top of plate to top of pcb_ **- 1.6mm** _thickness of plate_ **+ 1.6mm** _thickness of pcb_ **+ ~5.6mm** _thickness pro-micro usb mini_ **= 10.6mm**
 #### For micro-usb
 **5mm** _from top of plate to top of pcb_ **- 1.6mm** _thickness of plate_ **+ 1.6mm** _thickness of pcb_ **+ ~4mm** _thickness pro-micro usb mini_ **= 9mm**
-
-Sandwhich! (parts in this order from top down)
-*  Plate
-*  PCB
-*  Extra PCB or Bottom Plate
 
 ## Updates
 PCBs are labelled with revision number in the lower right corner.

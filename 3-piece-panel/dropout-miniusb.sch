@@ -82,17 +82,6 @@ Text GLabel 3150 1500 1    50   Input ~ 0
 COL0
 Wire Wire Line
 	3000 2050 3000 2300
-$Comp
-L power:GND #PWR01
-U 1 1 5FC8A443
-P 3000 2300
-F 0 "#PWR01" H 3000 2050 50  0001 C CNN
-F 1 "GND" H 3005 2127 50  0000 C CNN
-F 2 "" H 3000 2300 50  0001 C CNN
-F 3 "" H 3000 2300 50  0001 C CNN
-	1    3000 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3900 2100 3900 2300
 $Comp
@@ -1091,7 +1080,6 @@ Text Notes 7750 5400 0    50   ~ 0
 micro-usb\n
 Text Notes 7800 3450 0    50   ~ 0
 mini-usb\n
-NoConn ~ 8650 3800
 Wire Wire Line
 	9150 3900 9150 3750
 Connection ~ 9150 3750
@@ -1171,4 +1159,28 @@ F 3 "~" H 8900 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 4100 8900 4100
+$Comp
+L power:+5V #PWR0106
+U 1 1 5FF0E2E0
+P 8650 3650
+F 0 "#PWR0106" H 8650 3500 50  0001 C CNN
+F 1 "+5V" H 8665 3823 50  0000 C CNN
+F 2 "" H 8650 3650 50  0001 C CNN
+F 3 "" H 8650 3650 50  0001 C CNN
+	1    8650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3800 8650 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5FF1CEC0
+P 3000 2300
+F 0 "#PWR?" H 3000 2050 50  0001 C CNN
+F 1 "GND" H 3005 2127 50  0000 C CNN
+F 2 "" H 3000 2300 50  0001 C CNN
+F 3 "" H 3000 2300 50  0001 C CNN
+	1    3000 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

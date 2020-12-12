@@ -4,30 +4,24 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6060
+#define VENDOR_ID       0x9650
+#define PRODUCT_ID      0x2800
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    qmkbuilder
-#define PRODUCT         keyboard
-#define DESCRIPTION     Keyboard
+#define MANUFACTURER    ec965
+#define PRODUCT         dropout 
+#define DESCRIPTION     numpad
 
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 4
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { D1, B2, E6, B4, B5 }
-#define MATRIX_COL_PINS { B3, B1, D7, C6 }
+#define MATRIX_ROW_PINS { F4, B4, B3, B2, B6 }
+#define MATRIX_COL_PINS { E6, D7, B1, F7 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
-
-/* number of backlight levels */
-
-#ifdef BACKLIGHT_PIN
-#define BACKLIGHT_LEVELS 0
-#endif
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
@@ -46,13 +40,14 @@
 /* prevent stuck modifiers */
 #define PREVENT_STUCK_MODIFIERS
 
+#define ENCODERS_PAD_A { F5 }
+#define ENCODERS_PAD_B { F5 }
 
-#ifdef RGB_DI_PIN
-#define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 0
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
-#endif
+// use the backlight implementation for numlock
+// there is only 1 led which is connected to the num lock key
+#define BACKLIGHT_PIN B5
+#define BKACLIGHT_LEVELS 6
+#define BACKLIGHT_BREATHING
+#define BACKLIGHT_ON_STATE 1 //backlight is on when pin is high
 
 #endif
