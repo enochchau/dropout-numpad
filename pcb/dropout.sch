@@ -1114,21 +1114,6 @@ Text GLabel 7050 5550 0    50   Input ~ 0
 SCL
 Text GLabel 7050 5650 0    50   Input ~ 0
 SDA
-Text GLabel 4150 7000 2    50   Input ~ 0
-SDA
-Text GLabel 4150 6900 2    50   Input ~ 0
-SCL
-$Comp
-L power:+5V #PWR0106
-U 1 1 5FD6C1AA
-P 4500 7100
-F 0 "#PWR0106" H 4500 6950 50  0001 C CNN
-F 1 "+5V" H 4515 7273 50  0000 C CNN
-F 2 "" H 4500 7100 50  0001 C CNN
-F 3 "" H 4500 7100 50  0001 C CNN
-	1    4500 7100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5FD60773
@@ -1138,17 +1123,6 @@ F 1 "GND" H 6505 5277 50  0000 C CNN
 F 2 "" H 6500 5450 50  0001 C CNN
 F 3 "" H 6500 5450 50  0001 C CNN
 	1    6500 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5FD17E87
-P 4150 7300
-F 0 "#PWR02" H 4150 7050 50  0001 C CNN
-F 1 "GND" H 4155 7127 50  0000 C CNN
-F 2 "" H 4150 7300 50  0001 C CNN
-F 3 "" H 4150 7300 50  0001 C CNN
-	1    4150 7300
 	1    0    0    -1  
 $EndComp
 Text GLabel 7150 3400 0    50   Input ~ 0
@@ -1175,130 +1149,6 @@ F 3 "" H 8650 3000 50  0001 C CNN
 	1    8650 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 7300 4150 7200
-$Comp
-L mykeebio:TRRS-conn J1
-U 1 1 5FE35207
-P 3850 6850
-F 0 "J1" H 3800 7000 50  0000 L CNN
-F 1 "TRRS-conn" H 3600 6900 50  0000 L CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 4000 7050 50  0001 C CNN
-F 3 "" H 4000 7050 50  0001 C CNN
-	1    3850 6850
-	1    0    0    -1  
-$EndComp
-Text GLabel 3050 7100 2    50   Input ~ 0
-SDA
-Text GLabel 3050 6850 2    50   Input ~ 0
-SCL
-$Comp
-L power:+5V #PWR0111
-U 1 1 5FE4BEF2
-P 1900 6650
-F 0 "#PWR0111" H 1900 6500 50  0001 C CNN
-F 1 "+5V" H 1915 6823 50  0000 C CNN
-F 2 "" H 1900 6650 50  0001 C CNN
-F 3 "" H 1900 6650 50  0001 C CNN
-	1    1900 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5FE4BEF8
-P 1900 7300
-F 0 "#PWR0112" H 1900 7050 50  0001 C CNN
-F 1 "GND" H 1905 7127 50  0000 C CNN
-F 2 "" H 1900 7300 50  0001 C CNN
-F 3 "" H 1900 7300 50  0001 C CNN
-	1    1900 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 7300 1900 7200
-$Comp
-L mykeebio:TRRS-conn J2
-U 1 1 5FE4BF00
-P 1600 6850
-F 0 "J2" H 1550 7000 50  0000 L CNN
-F 1 "TRRS-conn" H 1350 6900 50  0000 L CNN
-F 2 "Keebio-Parts:TRRS-PJ-320A" H 1750 7050 50  0001 C CNN
-F 3 "" H 1750 7050 50  0001 C CNN
-	1    1600 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5FE54CCC
-P 2300 6650
-F 0 "R2" V 2093 6650 50  0000 C CNN
-F 1 "4.7k" V 2184 6650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 6650 50  0001 C CNN
-F 3 "~" H 2300 6650 50  0001 C CNN
-	1    2300 6650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5FE5546E
-P 2300 7450
-F 0 "R3" V 2093 7450 50  0000 C CNN
-F 1 "4.7k" V 2184 7450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 7450 50  0001 C CNN
-F 3 "~" H 2300 7450 50  0001 C CNN
-	1    2300 7450
-	0    1    1    0   
-$EndComp
-Text Notes 1000 6600 0    50   ~ 0
-I2C Passthrough
-$Comp
-L Device:Jumper JP1
-U 1 1 60034A1F
-P 2750 6650
-F 0 "JP1" H 2750 6914 50  0000 C CNN
-F 1 "Jumper" H 2750 6823 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2750 6650 50  0001 C CNN
-F 3 "~" H 2750 6650 50  0001 C CNN
-	1    2750 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP2
-U 1 1 60035A6A
-P 2750 7450
-F 0 "JP2" H 2750 7714 50  0000 C CNN
-F 1 "Jumper" H 2750 7623 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2750 7450 50  0001 C CNN
-F 3 "~" H 2750 7450 50  0001 C CNN
-	1    2750 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 6850 3050 6850
-Wire Wire Line
-	3050 6850 3050 6650
-Wire Wire Line
-	2150 6650 2150 7450
-Wire Wire Line
-	1900 6650 2000 6650
-Connection ~ 2150 6650
-Wire Wire Line
-	1900 6900 2450 6900
-Wire Wire Line
-	2450 6900 2450 6850
-Wire Wire Line
-	1900 7000 3050 7000
-Wire Wire Line
-	3050 7000 3050 7450
-Wire Wire Line
-	1900 7100 2000 7100
-Wire Wire Line
-	2000 7100 2000 6650
-Connection ~ 2000 6650
-Wire Wire Line
-	2000 6650 2150 6650
-Wire Wire Line
-	4150 7100 4500 7100
 Wire Wire Line
 	4800 1400 4800 1650
 Connection ~ 4600 1850
@@ -1393,4 +1243,45 @@ F 3 "~" H 9500 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9500 2800
+Text GLabel 6000 4600 2    50   Input ~ 0
+SCL
+Text GLabel 6000 4700 2    50   Input ~ 0
+SDA
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5FD983DA
+P 5800 4600
+F 0 "J1" H 5908 4881 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5908 4790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5800 4600 50  0001 C CNN
+F 3 "~" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5FD99212
+P 6350 4500
+F 0 "#PWR0106" H 6350 4350 50  0001 C CNN
+F 1 "+5V" H 6365 4673 50  0000 C CNN
+F 2 "" H 6350 4500 50  0001 C CNN
+F 3 "" H 6350 4500 50  0001 C CNN
+	1    6350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FD99D5A
+P 6350 4800
+F 0 "#PWR0111" H 6350 4550 50  0001 C CNN
+F 1 "GND" H 6355 4627 50  0000 C CNN
+F 2 "" H 6350 4800 50  0001 C CNN
+F 3 "" H 6350 4800 50  0001 C CNN
+	1    6350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4800 6350 4800
+Wire Wire Line
+	6000 4500 6350 4500
 $EndSCHEMATC
