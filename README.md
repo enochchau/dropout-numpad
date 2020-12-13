@@ -29,8 +29,9 @@ Amount | Part | Dimensions
 PCBs are labelled with revision number in the lower right corner.
 
 12/11 - Rev0.4 Added compatibility for ProMicro with mini-usb or micro-usb on same pcb, flipped orientation of ProMicro, and cleaned up traces.
+Added I2C TRRS connectors for future development. Added option for switch or rotary encoder.
 
-12/6 - Rev0.3 PCB Panelization
+12/6 - Rev0.3 Added mouse-bites to print all parts on a single PCB.
 
 12/? - Rev0.2 uses ProMicro (mini-usb). Mounting holes have been moved to prevent interference with stablizier wire. Board outline was also slightly adjusted. I also created a plate pcb. Because some dimensions changed between rev0.1 and rev0.2, the plate will not fit on older revisions.
 
@@ -43,6 +44,11 @@ Dimensions for the ProMicro mini-usb are 39.5mm x 23mm. I do not garantee that y
 ## To Do
 
 ## FAQ
+What are the I2C TRRS connectors for?
+
+Future development for modular keyboard design.
+
+
 Where does the name come from?
 
 I designed this shortly after deciding to dropout.
