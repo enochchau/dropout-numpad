@@ -68,6 +68,28 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Jumper
+#
+DEF Device_Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "Device_Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -195,6 +217,40 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# mykeebio_TRRS-conn
+#
+DEF mykeebio_TRRS-conn J 0 40 Y Y 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "mykeebio_TRRS-conn" 0 100 50 H V C CNN
+F2 "Keebio-Parts:TRRS-PJ-320A" 150 200 50 H I C CNN
+F3 "" 150 200 50 H I C CNN
+DRAW
+S -350 -50 -250 -350 0 1 0 N
+S 200 0 -250 -400 0 1 0 N
+X Sleeve 1 300 -350 100 L 50 50 1 1 B
+X Tip 2 300 -250 100 L 50 50 1 1 B
+X Ring1 3 300 -150 100 L 50 50 1 1 B
+X Ring2 4 300 -50 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# panelization_mouse-bites
+#
+DEF panelization_mouse-bites H 0 40 Y Y 1 F N
+F0 "H" 0 0 50 H V C CNN
+F1 "panelization_mouse-bites" 0 -50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 -350 50 0 1 0 N
+C -100 -250 50 0 1 0 N
+C -100 -150 50 0 1 0 N
+C 50 -350 50 0 1 0 N
+C 50 -250 50 0 1 0 N
+C 50 -150 50 0 1 0 N
 ENDDRAW
 ENDDEF
 #
