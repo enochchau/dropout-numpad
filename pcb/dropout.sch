@@ -767,10 +767,6 @@ F 3 "~" H 7800 1850 50  0001 C CNN
 	1    7800 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 8650 4400 2    50   Input ~ 0
-ROT-B
-Text GLabel 8650 4300 2    50   Input ~ 0
-ROT-A
 NoConn ~ 7250 4400
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -785,18 +781,7 @@ F 3 "~" H 9300 3600 50  0001 C CNN
 $EndComp
 NoConn ~ 7250 4500
 Wire Wire Line
-	5650 1500 5650 2300
-Wire Wire Line
-	5450 2300 5550 2300
-Wire Wire Line
-	5550 2300 5550 2100
-Wire Wire Line
-	5550 2100 5750 2100
-Wire Wire Line
-	5750 2300 5650 2300
-Connection ~ 5650 2300
-Wire Wire Line
-	5650 2300 5650 2900
+	5650 1500 5650 1850
 NoConn ~ 7250 4200
 $Comp
 L power:GND #PWR0101
@@ -1115,10 +1100,6 @@ Text GLabel 8650 6600 2    50   Input ~ 0
 COL2
 Text GLabel 8650 6500 2    50   Input ~ 0
 COL3
-Text GLabel 8650 6400 2    50   Input ~ 0
-ROT-B
-Text GLabel 8650 6300 2    50   Input ~ 0
-ROT-A
 Wire Wire Line
 	8650 6000 9150 6000
 Wire Wire Line
@@ -1173,14 +1154,46 @@ $EndComp
 Wire Wire Line
 	8650 3800 8650 3650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 5FF1CEC0
 P 3000 2300
-F 0 "#PWR?" H 3000 2050 50  0001 C CNN
+F 0 "#PWR0107" H 3000 2050 50  0001 C CNN
 F 1 "GND" H 3005 2127 50  0000 C CNN
 F 2 "" H 3000 2300 50  0001 C CNN
 F 3 "" H 3000 2300 50  0001 C CNN
 	1    3000 2300
 	1    0    0    -1  
 $EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K-FN1
+U 1 1 5FD59D56
+P 5500 1900
+F 0 "K-FN1" H 5533 2123 60  0000 C CNN
+F 1 "MX-NoLED" H 5533 2049 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4875 1875 60  0001 C CNN
+F 3 "" H 4875 1875 60  0001 C CNN
+	1    5500 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 1850
+Text GLabel 8650 6300 2    50   Input ~ 0
+ROT-B
+Text GLabel 8650 6400 2    50   Input ~ 0
+ROT-A
+Text GLabel 8650 4300 2    50   Input ~ 0
+ROT-B
+Text GLabel 8650 4400 2    50   Input ~ 0
+ROT-A
+Wire Wire Line
+	5650 1850 5650 2100
+Wire Wire Line
+	5450 2050 5450 2300
+Wire Wire Line
+	5450 2300 5750 2300
+Connection ~ 5450 2300
+Wire Wire Line
+	5650 2100 5750 2100
+Connection ~ 5650 2100
+Wire Wire Line
+	5650 2100 5650 2900
 $EndSCHEMATC
