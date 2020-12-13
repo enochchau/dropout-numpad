@@ -10,9 +10,9 @@
 void led_init_kb(void){
 #ifdef DEFAULT_NUMLOCK
   // numlock led is wired like so:
-  // pin -> led -> gnd
+  // 5V -> led -> pin
   setPinOutput(LED_NUM_LOCK_PIN); // numlock led
-  writePinLow(LED_NUM_LOCK_PIN);
+  writePinHigh(LED_NUM_LOCK_PIN);
 #endif
 }
 

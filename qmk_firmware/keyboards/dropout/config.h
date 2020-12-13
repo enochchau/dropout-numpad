@@ -40,7 +40,7 @@
 /* prevent stuck modifiers */
 #define PREVENT_STUCK_MODIFIERS
 
-#define ENCODERS_PAD_A { F5 }
+#define ENCODERS_PAD_A { F6 }
 #define ENCODERS_PAD_B { F5 }
 
 // use the backlight implementation for numlock
@@ -48,6 +48,6 @@
 #define BACKLIGHT_PIN B5
 #define BKACLIGHT_LEVELS 6
 #define BACKLIGHT_BREATHING
-#define BACKLIGHT_ON_STATE 1 //backlight is on when pin is high
+#define BACKLIGHT_ON_STATE 0 //backlight is on when pin is low
 
 #endif
