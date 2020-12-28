@@ -31,6 +31,10 @@ fp-info-cache
 *.xml
 *.csv
 
+# KiCad rescue files
+*-rescue.dcm
+*-rescue.lib
+
 # Libre CAD
 *.dxf~
 
