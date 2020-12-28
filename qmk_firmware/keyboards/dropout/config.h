@@ -6,7 +6,6 @@
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x9650
 #define PRODUCT_ID      0x2800
-#define DEVICE_VER      0x0001
 #define MANUFACTURER    ec965
 #define PRODUCT         dropout 
 #define DESCRIPTION     numpad
@@ -16,8 +15,7 @@
 #define MATRIX_COLS 4
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { F4, B4, B3, B2, B6 }
-#define MATRIX_COL_PINS { E6, D7, B1, F7 }
+// These are defined in the revision folders
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
@@ -40,12 +38,9 @@
 /* prevent stuck modifiers */
 #define PREVENT_STUCK_MODIFIERS
 
-#define ENCODERS_PAD_A { F6 }
-#define ENCODERS_PAD_B { F5 }
 
 // use the backlight implementation for numlock
 // there is only 1 led which is connected to the num lock key
-#define BACKLIGHT_PIN B5
 #define BKACLIGHT_LEVELS 6
 #define BACKLIGHT_BREATHING
 #define BACKLIGHT_ON_STATE 0 //backlight is on when pin is low
