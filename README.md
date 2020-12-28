@@ -33,6 +33,7 @@ Hardware designs are under the MIT license. QMK is under the GPL v2 license ther
 
 ## Updates
 PCBs are labelled with revision number in the lower right corner.
+12/28 - Rev0.5 Replaced SOD123 diode footprints with THT/SOD123 dual footprint. Removed ISP and I2C header pins. Cleaned up schematic and footprints.
 
 12/11 - Rev0.4 Added compatibility for ProMicro with mini-usb or micro-usb on same pcb, flipped orientation of ProMicro, and cleaned up traces.
 Added option for switch or rotary encoder. Added I2C header.

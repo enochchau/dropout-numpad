@@ -41,7 +41,7 @@ U 1 1 5FC84EFF
 P 2900 1850
 F 0 "D6" H 2900 2067 50  0000 C CNN
 F 1 "D" H 2900 1976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2900 1850 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 2900 1850 50  0001 C CNN
 F 3 "~" H 2900 1850 50  0001 C CNN
 	1    2900 1850
 	1    0    0    -1  
@@ -67,7 +67,7 @@ U 1 1 5FC83902
 P 1950 1850
 F 0 "D1" H 1950 2067 50  0000 C CNN
 F 1 "D" H 1950 1976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1950 1850 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 1950 1850 50  0001 C CNN
 F 3 "~" H 1950 1850 50  0001 C CNN
 	1    1950 1850
 	1    0    0    -1  
@@ -99,7 +99,7 @@ U 1 1 5FC8D981
 P 3700 1850
 F 0 "D10" H 3700 2067 50  0000 C CNN
 F 1 "D" H 3700 1976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3700 1850 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 3700 1850 50  0001 C CNN
 F 3 "~" H 3700 1850 50  0001 C CNN
 	1    3700 1850
 	1    0    0    -1  
@@ -112,7 +112,7 @@ U 1 1 5FC8EE8B
 P 4450 1850
 F 0 "D15" H 4450 2067 50  0000 C CNN
 F 1 "D" H 4450 1976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4450 1850 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 4450 1850 50  0001 C CNN
 F 3 "~" H 4450 1850 50  0001 C CNN
 	1    4450 1850
 	1    0    0    -1  
@@ -144,7 +144,7 @@ U 1 1 5FC93CE7
 P 1950 2850
 F 0 "D2" H 1950 3067 50  0000 C CNN
 F 1 "D" H 1950 2976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1950 2850 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 1950 2850 50  0001 C CNN
 F 3 "~" H 1950 2850 50  0001 C CNN
 	1    1950 2850
 	1    0    0    -1  
@@ -179,7 +179,7 @@ U 1 1 5FC96EEE
 P 2900 2850
 F 0 "D7" H 2900 3067 50  0000 C CNN
 F 1 "D" H 2900 2976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2900 2850 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 2900 2850 50  0001 C CNN
 F 3 "~" H 2900 2850 50  0001 C CNN
 	1    2900 2850
 	1    0    0    -1  
@@ -203,7 +203,7 @@ U 1 1 5FC97F3B
 P 3700 2850
 F 0 "D11" H 3700 3067 50  0000 C CNN
 F 1 "D" H 3700 2976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3700 2850 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 3700 2850 50  0001 C CNN
 F 3 "~" H 3700 2850 50  0001 C CNN
 	1    3700 2850
 	1    0    0    -1  
@@ -227,7 +227,7 @@ U 1 1 5FC99381
 P 4450 2850
 F 0 "D16" H 4450 3067 50  0000 C CNN
 F 1 "D" H 4450 2976 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4450 2850 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 4450 2850 50  0001 C CNN
 F 3 "~" H 4450 2850 50  0001 C CNN
 	1    4450 2850
 	1    0    0    -1  
@@ -240,7 +240,7 @@ U 1 1 5FC9D4B6
 P 1950 3750
 F 0 "D3" H 1950 3967 50  0000 C CNN
 F 1 "D" H 1950 3876 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1950 3750 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 1950 3750 50  0001 C CNN
 F 3 "~" H 1950 3750 50  0001 C CNN
 	1    1950 3750
 	1    0    0    -1  
@@ -275,7 +275,7 @@ U 1 1 5FC9D4C9
 P 2900 3750
 F 0 "D8" H 2900 3967 50  0000 C CNN
 F 1 "D" H 2900 3876 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2900 3750 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 2900 3750 50  0001 C CNN
 F 3 "~" H 2900 3750 50  0001 C CNN
 	1    2900 3750
 	1    0    0    -1  
@@ -299,7 +299,7 @@ U 1 1 5FC9D4D6
 P 3700 3750
 F 0 "D12" H 3700 3967 50  0000 C CNN
 F 1 "D" H 3700 3876 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3700 3750 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 3700 3750 50  0001 C CNN
 F 3 "~" H 3700 3750 50  0001 C CNN
 	1    3700 3750
 	1    0    0    -1  
@@ -323,7 +323,7 @@ U 1 1 5FC9D4E3
 P 4450 3750
 F 0 "D17" H 4450 3967 50  0000 C CNN
 F 1 "D" H 4450 3876 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4450 3750 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 4450 3750 50  0001 C CNN
 F 3 "~" H 4450 3750 50  0001 C CNN
 	1    4450 3750
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 1 1 5FCA12D6
 P 1950 4600
 F 0 "D4" H 1950 4817 50  0000 C CNN
 F 1 "D" H 1950 4726 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1950 4600 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 1950 4600 50  0001 C CNN
 F 3 "~" H 1950 4600 50  0001 C CNN
 	1    1950 4600
 	1    0    0    -1  
@@ -371,7 +371,7 @@ U 1 1 5FCA12E9
 P 2900 4600
 F 0 "D9" H 2900 4817 50  0000 C CNN
 F 1 "D" H 2900 4726 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2900 4600 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 2900 4600 50  0001 C CNN
 F 3 "~" H 2900 4600 50  0001 C CNN
 	1    2900 4600
 	1    0    0    -1  
@@ -395,7 +395,7 @@ U 1 1 5FCA12F6
 P 3700 4600
 F 0 "D13" H 3700 4817 50  0000 C CNN
 F 1 "D" H 3700 4726 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3700 4600 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 3700 4600 50  0001 C CNN
 F 3 "~" H 3700 4600 50  0001 C CNN
 	1    3700 4600
 	1    0    0    -1  
@@ -408,7 +408,7 @@ U 1 1 5FCA12FD
 P 4650 4250
 F 0 "K-ENT1" H 4683 4473 60  0000 C CNN
 F 1 "MX-NoLED" H 4683 4399 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-ReversedStabilizers" H 4025 4225 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2U-ReversedStabilizers-NoLED" H 4025 4225 60  0001 C CNN
 F 3 "" H 4025 4225 60  0001 C CNN
 	1    4650 4250
 	1    0    0    -1  
@@ -419,7 +419,7 @@ U 1 1 5FCA1303
 P 4450 4600
 F 0 "D18" H 4450 4817 50  0000 C CNN
 F 1 "D" H 4450 4726 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4450 4600 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 4450 4600 50  0001 C CNN
 F 3 "~" H 4450 4600 50  0001 C CNN
 	1    4450 4600
 	1    0    0    -1  
@@ -432,7 +432,7 @@ U 1 1 5FCA48A9
 P 1950 5450
 F 0 "D5" H 1950 5667 50  0000 C CNN
 F 1 "D" H 1950 5576 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1950 5450 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 1950 5450 50  0001 C CNN
 F 3 "~" H 1950 5450 50  0001 C CNN
 	1    1950 5450
 	1    0    0    -1  
@@ -445,7 +445,7 @@ U 1 1 5FCA48B0
 P 2150 5100
 F 0 "K-0" H 2183 5323 60  0000 C CNN
 F 1 "MX-NoLED" H 2183 5249 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-ReversedStabilizers" H 1525 5075 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2U-ReversedStabilizers-NoLED" H 1525 5075 60  0001 C CNN
 F 3 "" H 1525 5075 60  0001 C CNN
 	1    2150 5100
 	1    0    0    -1  
@@ -467,7 +467,7 @@ U 1 1 5FCA48C9
 P 3700 5450
 F 0 "D14" H 3700 5667 50  0000 C CNN
 F 1 "D" H 3700 5576 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3700 5450 50  0001 C CNN
+F 2 "footprint:Diode_TH_SOD123" H 3700 5450 50  0001 C CNN
 F 3 "~" H 3700 5450 50  0001 C CNN
 	1    3700 5450
 	1    0    0    -1  
@@ -627,7 +627,7 @@ U 1 1 5FCF7876
 P 7850 3750
 F 0 "U1" H 7850 4787 60  0000 C CNN
 F 1 "ProMicro" H 7850 4681 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro-Mini-USB" H 7950 2700 60  0001 C CNN
+F 2 "promicro:ProMico_mini&micro" H 7950 2700 60  0001 C CNN
 F 3 "" H 7950 2700 60  0000 C CNN
 	1    7850 3750
 	1    0    0    -1  
@@ -740,21 +740,6 @@ NoConn ~ 7150 3600
 NoConn ~ 7150 3700
 Wire Wire Line
 	4800 1050 4800 1400
-$Comp
-L power:GND #PWR0101
-U 1 1 5FD21691
-P 10000 4300
-F 0 "#PWR0101" H 10000 4050 50  0001 C CNN
-F 1 "GND" H 10005 4127 50  0000 C CNN
-F 2 "" H 10000 4300 50  0001 C CNN
-F 3 "" H 10000 4300 50  0001 C CNN
-	1    10000 4300
-	1    0    0    -1  
-$EndComp
-Text GLabel 9500 4000 0    50   Input ~ 0
-VCC
-Text GLabel 8800 3300 2    50   Input ~ 0
-VCC
 Wire Wire Line
 	8750 4200 8750 4000
 Wire Wire Line
@@ -763,54 +748,10 @@ Wire Wire Line
 	8850 4200 8850 3900
 Wire Wire Line
 	8850 3900 8550 3900
-$Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J-ISP1
-U 1 1 5FD61972
-P 9700 4000
-F 0 "J-ISP1" H 9750 3675 50  0000 C CNN
-F 1 "Conn_02x03_Counter_Clockwise" H 9750 3766 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9700 4000 50  0001 C CNN
-F 3 "~" H 9700 4000 50  0001 C CNN
-	1    9700 4000
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9200 3350 9200 3400
-Text GLabel 9200 3400 3    50   Input ~ 0
-RESET
-Text GLabel 10000 4000 2    50   Input ~ 0
-RESET
-Wire Wire Line
-	8850 3900 9150 3900
-Connection ~ 8850 3900
 Wire Wire Line
 	8550 3800 8950 3800
 Wire Wire Line
 	8950 4250 8950 3800
-Wire Wire Line
-	9150 4100 9500 4100
-Wire Wire Line
-	9150 3900 9150 4100
-Wire Wire Line
-	8750 4000 9050 4000
-Wire Wire Line
-	9050 4000 9050 4200
-Wire Wire Line
-	9050 4200 10300 4200
-Wire Wire Line
-	10300 4200 10300 3900
-Wire Wire Line
-	10300 3900 10000 3900
-Connection ~ 8750 4000
-Wire Wire Line
-	8950 3800 9250 3800
-Wire Wire Line
-	9250 3800 9250 3900
-Wire Wire Line
-	9250 3900 9500 3900
-Connection ~ 8950 3800
-Wire Wire Line
-	10000 4100 10000 4300
 $Comp
 L Device:C C2
 U 1 1 5FCA2C97
@@ -983,66 +924,8 @@ Text Notes 9100 1200 0    50   ~ 0
 Holes for Plate
 Text Notes 9950 1200 0    50   ~ 0
 Holes for Base
-NoConn ~ 7050 5150
-NoConn ~ 7050 5250
-Wire Wire Line
-	6500 5450 6500 5350
-Text GLabel 8450 5450 2    50   Input ~ 0
-VCC
-Text GLabel 8950 5350 2    50   Input ~ 0
-RESET
-Text Notes 7600 4750 0    50   ~ 0
-micro-usb\n
 Text Notes 7700 2650 0    50   ~ 0
 mini-usb\n
-$Comp
-L power:GND #PWR0105
-U 1 1 5FEA8168
-P 9350 5250
-F 0 "#PWR0105" H 9350 5000 50  0001 C CNN
-F 1 "GND" H 9355 5077 50  0000 C CNN
-F 2 "" H 9350 5250 50  0001 C CNN
-F 3 "" H 9350 5250 50  0001 C CNN
-	1    9350 5250
-	1    0    0    -1  
-$EndComp
-Connection ~ 6950 5350
-Wire Wire Line
-	6500 5350 6950 5350
-Wire Wire Line
-	6950 5350 6950 5450
-Wire Wire Line
-	6950 5450 7050 5450
-Wire Wire Line
-	6950 5350 7050 5350
-Text GLabel 8450 6250 2    50   Input ~ 0
-ROW4
-Text GLabel 8450 6150 2    50   Input ~ 0
-ROW3
-Text GLabel 8450 6050 2    50   Input ~ 0
-ROW2
-Text GLabel 8450 5550 2    50   Input ~ 0
-ROW0
-Text GLabel 8450 5950 2    50   Input ~ 0
-COL2
-Text GLabel 8450 5850 2    50   Input ~ 0
-COL3
-Wire Wire Line
-	8450 5350 8950 5350
-Wire Wire Line
-	8450 5250 9350 5250
-NoConn ~ 7050 5850
-NoConn ~ 7050 5750
-Text GLabel 7050 6250 0    50   Input ~ 0
-NUMLED
-Text GLabel 7050 5950 0    50   Input ~ 0
-COL1
-Text GLabel 7050 6050 0    50   Input ~ 0
-COL0
-Text GLabel 7050 6150 0    50   Input ~ 0
-ROW1
-Wire Wire Line
-	8550 3300 8800 3300
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K-FN1
 U 1 1 5FD59D56
@@ -1055,10 +938,6 @@ F 3 "" H 4025 1425 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4800 1400
-Text GLabel 8450 5650 2    50   Input ~ 0
-ROT-B
-Text GLabel 8450 5750 2    50   Input ~ 0
-ROT-A
 Text GLabel 8550 3500 2    50   Input ~ 0
 ROT-B
 Text GLabel 8550 3600 2    50   Input ~ 0
@@ -1069,30 +948,6 @@ Wire Wire Line
 	4600 1850 4900 1850
 Wire Wire Line
 	4800 1650 4900 1650
-$Comp
-L promicro:ProMicro U2
-U 1 1 5FD6075C
-P 7750 5900
-F 0 "U2" H 7750 6937 60  0000 C CNN
-F 1 "ProMicro" H 7750 6831 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" H 7850 4850 60  0001 C CNN
-F 3 "" H 7850 4850 60  0000 C CNN
-	1    7750 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0107
-U 1 1 5FD7658D
-P 8550 5150
-F 0 "#PWR0107" H 8550 5000 50  0001 C CNN
-F 1 "+5V" H 8565 5323 50  0000 C CNN
-F 2 "" H 8550 5150 50  0001 C CNN
-F 3 "" H 8550 5150 50  0001 C CNN
-	1    8550 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 5150 8550 5150
 $Comp
 L power:+5V #PWR0108
 U 1 1 5FD7B580
@@ -1108,25 +963,6 @@ Wire Wire Line
 	2550 1050 2550 1200
 Wire Wire Line
 	8550 3000 8650 3000
-Text GLabel 7150 3500 0    50   Input ~ 0
-SDA
-Text GLabel 7050 5550 0    50   Input ~ 0
-SCL
-Text GLabel 7050 5650 0    50   Input ~ 0
-SDA
-$Comp
-L power:GND #PWR0104
-U 1 1 5FD60773
-P 6500 5450
-F 0 "#PWR0104" H 6500 5200 50  0001 C CNN
-F 1 "GND" H 6505 5277 50  0000 C CNN
-F 2 "" H 6500 5450 50  0001 C CNN
-F 3 "" H 6500 5450 50  0001 C CNN
-	1    6500 5450
-	1    0    0    -1  
-$EndComp
-Text GLabel 7150 3400 0    50   Input ~ 0
-SCL
 $Comp
 L power:GND #PWR0109
 U 1 1 5FDA5891
@@ -1156,7 +992,6 @@ Connection ~ 4800 1650
 Wire Wire Line
 	4800 1650 4800 2450
 Connection ~ 9050 2950
-Connection ~ 9200 3350
 Wire Wire Line
 	9050 3100 9050 2950
 Wire Wire Line
@@ -1167,7 +1002,7 @@ U 1 1 5FE6A655
 P 7500 1600
 F 0 "H19" H 7628 1396 50  0000 L CNN
 F 1 "mouse-bites" H 7628 1305 50  0000 L CNN
-F 2 "Panelization:mouse-bite-2mm-slot" H 7500 1600 50  0001 C CNN
+F 2 "Keebio-Parts:breakaway-mousebites" H 7500 1600 50  0001 C CNN
 F 3 "" H 7500 1600 50  0001 C CNN
 	1    7500 1600
 	1    0    0    -1  
@@ -1178,7 +1013,7 @@ U 1 1 5FE6A2C7
 P 7500 1250
 F 0 "H18" H 7628 1046 50  0000 L CNN
 F 1 "mouse-bites" H 7628 955 50  0000 L CNN
-F 2 "Panelization:mouse-bite-2mm-slot" H 7500 1250 50  0001 C CNN
+F 2 "Keebio-Parts:breakaway-mousebites" H 7500 1250 50  0001 C CNN
 F 3 "" H 7500 1250 50  0001 C CNN
 	1    7500 1250
 	1    0    0    -1  
@@ -1189,7 +1024,7 @@ U 1 1 5FE69F24
 P 7500 900
 F 0 "H17" H 7628 696 50  0000 L CNN
 F 1 "mouse-bites" H 7628 605 50  0000 L CNN
-F 2 "Panelization:mouse-bite-2mm-slot" H 7500 900 50  0001 C CNN
+F 2 "Keebio-Parts:breakaway-mousebites" H 7500 900 50  0001 C CNN
 F 3 "" H 7500 900 50  0001 C CNN
 	1    7500 900 
 	1    0    0    -1  
@@ -1200,7 +1035,7 @@ U 1 1 5FE6952B
 P 7500 1950
 F 0 "H16" H 7628 1746 50  0000 L CNN
 F 1 "mouse-bites" H 7628 1655 50  0000 L CNN
-F 2 "Panelization:mouse-bite-2mm-slot" H 7500 1950 50  0001 C CNN
+F 2 "Keebio-Parts:breakaway-mousebites" H 7500 1950 50  0001 C CNN
 F 3 "" H 7500 1950 50  0001 C CNN
 	1    7500 1950
 	1    0    0    -1  
@@ -1243,45 +1078,7 @@ F 3 "~" H 9500 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9500 2800
-Text GLabel 6000 4600 2    50   Input ~ 0
-SCL
-Text GLabel 6000 4700 2    50   Input ~ 0
-SDA
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5FD983DA
-P 5800 4600
-F 0 "J1" H 5908 4881 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 5908 4790 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5800 4600 50  0001 C CNN
-F 3 "~" H 5800 4600 50  0001 C CNN
-	1    5800 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0106
-U 1 1 5FD99212
-P 6350 4500
-F 0 "#PWR0106" H 6350 4350 50  0001 C CNN
-F 1 "+5V" H 6365 4673 50  0000 C CNN
-F 2 "" H 6350 4500 50  0001 C CNN
-F 3 "" H 6350 4500 50  0001 C CNN
-	1    6350 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5FD99D5A
-P 6350 4800
-F 0 "#PWR0111" H 6350 4550 50  0001 C CNN
-F 1 "GND" H 6355 4627 50  0000 C CNN
-F 2 "" H 6350 4800 50  0001 C CNN
-F 3 "" H 6350 4800 50  0001 C CNN
-	1    6350 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 4800 6350 4800
-Wire Wire Line
-	6000 4500 6350 4500
+NoConn ~ 7150 3400
+NoConn ~ 7150 3500
+NoConn ~ 8550 3300
 $EndSCHEMATC
