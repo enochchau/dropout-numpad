@@ -33,19 +33,15 @@ Hardware designs are under the MIT license. QMK is under the GPL v2 license ther
 
 ## Updates
 PCBs are labelled with revision number in the lower right corner.
-12/28 - Rev0.5 Replaced SOD123 diode footprints with THT/SOD123 dual footprint. Removed ISP and I2C header pins. Cleaned up schematic and footprints.
 
-12/11 - Rev0.4 Added compatibility for ProMicro with mini-usb or micro-usb on same pcb, flipped orientation of ProMicro, and cleaned up traces.
+* 12/28 - Rev0.5 Replaced SOD123 diode footprints with THT/SOD123 dual footprint. Removed ISP and I2C header pins. Cleaned up schematic and footprints.
+* 12/11 - Rev0.4 Added compatibility for ProMicro with mini-usb or micro-usb on same pcb, flipped orientation of ProMicro, and cleaned up traces.
 Added option for switch or rotary encoder. Added I2C header.
-
-12/6 - Rev0.3 Added mouse-bites to print all parts on a single PCB.
-
-12/? - Rev0.2 uses ProMicro (mini-usb). Mounting holes have been moved to prevent interference with stablizier wire. Board outline was also slightly adjusted. I also created a plate pcb. Because some dimensions changed between rev0.1 and rev0.2, the plate will not fit on older revisions.
-
-12/? - Rev0.1 uses ProMicro wiith mini-usb as can be found by various retailers elsewhere on the internet. 
+* 12/6 - Rev0.3 Added mouse-bites to print all parts on a single PCB.
+* 12/? - Rev0.2 uses ProMicro (mini-usb). Mounting holes have been moved to prevent interference with stablizier wire. Board outline was also slightly adjusted. I also created a plate pcb. Because some dimensions changed between rev0.1 and rev0.2, the plate will not fit on older revisions.
+* 12/? - Rev0.1 uses ProMicro wiith mini-usb as can be found by various retailers elsewhere on the internet. 
 Dimensions for the ProMicro mini-usb are 39.5mm x 23mm. I do not garantee that your ProMicro will fit the board.
-
-12/? - Rev0 uses ProMicro with micro-usb as designed by [Sparkfun](https://www.sparkfun.com/products/12640).
+* 12/? - Rev0 uses ProMicro with micro-usb as designed by [Sparkfun](https://www.sparkfun.com/products/12640).
 
 ### M2 F-F standoff calculations:
 #### For mini-usb
