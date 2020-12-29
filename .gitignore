@@ -4,6 +4,7 @@ Panelization.pretty/
 archive/dropout-miniusb/BOM-link.xlsx
 archive/dropout-microusb/BOM-link.xlsx
 dropout-miniusb/BOM-link.xlsx
+pcb/gerbers.zip
 
 # Temporary files
 *.000
