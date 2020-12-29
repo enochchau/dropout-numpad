@@ -606,10 +606,6 @@ Connection ~ 4800 2450
 Connection ~ 4800 3350
 Wire Wire Line
 	4800 3350 4800 4200
-Text GLabel 5750 1850 2    50   Input ~ 0
-ROT-A
-Text GLabel 5750 1650 2    50   Input ~ 0
-ROT-B
 $Comp
 L power:GND #PWR03
 U 1 1 5FCF72BD
@@ -619,17 +615,6 @@ F 1 "GND" H 6155 1777 50  0000 C CNN
 F 2 "" H 6150 1950 50  0001 C CNN
 F 3 "" H 6150 1950 50  0001 C CNN
 	1    6150 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L promicro:ProMicro U1
-U 1 1 5FCF7876
-P 7850 3750
-F 0 "U1" H 7850 4787 60  0000 C CNN
-F 1 "ProMicro" H 7850 4681 60  0000 C CNN
-F 2 "promicro:ProMico_mini&micro" H 7950 2700 60  0001 C CNN
-F 3 "" H 7950 2700 60  0000 C CNN
-	1    7850 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -659,27 +644,27 @@ Wire Wire Line
 	5500 1750 6150 1750
 Wire Wire Line
 	6150 1750 6150 1950
-Text GLabel 8550 4100 2    50   Input ~ 0
+Text GLabel 7150 4100 0    50   Input ~ 0
 ROW4
-Text GLabel 8750 4200 3    50   Input ~ 0
-ROW3
-Text GLabel 8850 4200 3    50   Input ~ 0
-ROW2
 Text GLabel 7150 4000 0    50   Input ~ 0
-ROW1
-Text GLabel 8550 3400 2    50   Input ~ 0
-ROW0
+ROW3
 Text GLabel 7150 3900 0    50   Input ~ 0
+ROW2
+Text GLabel 8550 4000 2    50   Input ~ 0
+ROW1
+Text GLabel 7150 3400 0    50   Input ~ 0
+ROW0
+Text GLabel 8550 3900 2    50   Input ~ 0
 COL0
-Text GLabel 7150 3800 0    50   Input ~ 0
+Text GLabel 8550 3800 2    50   Input ~ 0
 COL1
-Text GLabel 8950 4250 3    50   Input ~ 0
+Text GLabel 7150 3800 0    50   Input ~ 0
 COL2
 Text GLabel 4800 1050 1    50   Input ~ 0
 COL3
-Text GLabel 8550 3700 2    50   Input ~ 0
+Text GLabel 7150 3700 0    50   Input ~ 0
 COL3
-Text GLabel 7150 4100 0    50   Input ~ 0
+Text GLabel 8550 4100 2    50   Input ~ 0
 NUMLED
 $Comp
 L Mechanical:MountingHole H2
@@ -736,22 +721,8 @@ F 3 "~" H 8500 1350 50  0001 C CNN
 	1    8500 1350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7150 3600
-NoConn ~ 7150 3700
 Wire Wire Line
 	4800 1050 4800 1400
-Wire Wire Line
-	8750 4200 8750 4000
-Wire Wire Line
-	8750 4000 8550 4000
-Wire Wire Line
-	8850 4200 8850 3900
-Wire Wire Line
-	8850 3900 8550 3900
-Wire Wire Line
-	8550 3800 8950 3800
-Wire Wire Line
-	8950 4250 8950 3800
 $Comp
 L Device:C C2
 U 1 1 5FCA2C97
@@ -938,9 +909,9 @@ F 3 "" H 4025 1425 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4800 1400
-Text GLabel 8550 3500 2    50   Input ~ 0
+Text GLabel 7150 3600 0    50   Input ~ 0
 ROT-B
-Text GLabel 8550 3600 2    50   Input ~ 0
+Text GLabel 7150 3500 0    50   Input ~ 0
 ROT-A
 Wire Wire Line
 	4600 1600 4600 1850
@@ -1078,7 +1049,28 @@ F 3 "~" H 9500 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9500 2800
-NoConn ~ 7150 3400
-NoConn ~ 7150 3500
 NoConn ~ 8550 3300
+$Comp
+L promicro:ProMicro U1
+U 1 1 5FCF7876
+P 7850 3750
+F 0 "U1" H 7850 4787 60  0000 C CNN
+F 1 "ProMicro" H 7850 4681 60  0000 C CNN
+F 2 "promicro:ProMico_mini&micro" H 7950 2700 60  0001 C CNN
+F 3 "" H 7950 2700 60  0000 C CNN
+	1    7850 3750
+	1    0    0    -1  
+$EndComp
+Text Notes 7550 3450 0    50   ~ 0
+D1
+Text Notes 7550 3550 0    50   ~ 0
+D0
+NoConn ~ 8550 3700
+NoConn ~ 8550 3600
+NoConn ~ 8550 3500
+NoConn ~ 8550 3400
+Text GLabel 5750 1850 2    50   Input ~ 0
+ROT-A
+Text GLabel 5750 1650 2    50   Input ~ 0
+ROT-B
 $EndSCHEMATC

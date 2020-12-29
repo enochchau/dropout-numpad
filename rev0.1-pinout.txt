@@ -1,0 +1,18 @@
+Rows
+0: D1
+1: B2
+2: E6
+3: B4
+4: B5
+
+Cols
+0: B3
+1: B1
+2: D7
+3: C6
+
+Backlight: B6
+
+Encoder:
+A: D0
+B: D4
