@@ -7,7 +7,7 @@ Dropout uses [QMK](https://github.com/qmk/qmk_firmware).
 To get the firmware:
 1. Clone my qmk fork with `git clone https://github.com/ec965/qmk_firmware.git`.
 2. Enter the root directory of the repository with `cd qmk_firmware`.
-2. Go to the dropout-numpad branch with `git checkout dropout-numpad`.
+2. Go to the dropout-numpad branch with `git checkout --track origin/dropout-numpad`.
 3. Compile the rev0.3 firmware by running `qmk compile -kb dropout/rev0.3 -km default`.
 4. Flash using either qmk toolbox or the cli.
 
