@@ -18,7 +18,7 @@ To get the firmware:
 ### Case Parts
 Amount | Part | Dimensions
 --- | --- | ---
-5 | M2 F-F standoffs | 13mm (mini usb) or 11mm (micro-usb)
+5 | M2 F-F standoffs | minimum: 13mm (mini usb) or 11mm (micro-usb)
 10 | M2 screws | 5mm
 4 | rubber bumpon feet
 
