@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name graphics)(type KiCad)(uri G:/Documents/KiCad/library/graphics/graphics.pretty)(options "")(descr ""))
+)

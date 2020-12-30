@@ -171,23 +171,6 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# panelization_mouse-bites
-#
-DEF panelization_mouse-bites H 0 40 Y Y 1 F N
-F0 "H" 0 0 50 H V C CNN
-F1 "panelization_mouse-bites" 0 -50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -100 -350 50 0 1 0 N
-C -100 -250 50 0 1 0 N
-C -100 -150 50 0 1 0 N
-C 50 -350 50 0 1 0 N
-C 50 -250 50 0 1 0 N
-C 50 -150 50 0 1 0 N
-ENDDRAW
-ENDDEF
-#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P

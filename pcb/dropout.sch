@@ -41,7 +41,7 @@ U 1 1 5FC84EFF
 P 2900 1850
 F 0 "D6" H 2900 2067 50  0000 C CNN
 F 1 "D" H 2900 1976 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 2900 1850 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 2900 1850 50  0001 C CNN
 F 3 "~" H 2900 1850 50  0001 C CNN
 	1    2900 1850
 	1    0    0    -1  
@@ -67,7 +67,7 @@ U 1 1 5FC83902
 P 1950 1850
 F 0 "D1" H 1950 2067 50  0000 C CNN
 F 1 "D" H 1950 1976 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 1950 1850 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 1950 1850 50  0001 C CNN
 F 3 "~" H 1950 1850 50  0001 C CNN
 	1    1950 1850
 	1    0    0    -1  
@@ -99,7 +99,7 @@ U 1 1 5FC8D981
 P 3700 1850
 F 0 "D10" H 3700 2067 50  0000 C CNN
 F 1 "D" H 3700 1976 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 3700 1850 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 3700 1850 50  0001 C CNN
 F 3 "~" H 3700 1850 50  0001 C CNN
 	1    3700 1850
 	1    0    0    -1  
@@ -112,7 +112,7 @@ U 1 1 5FC8EE8B
 P 4450 1850
 F 0 "D15" H 4450 2067 50  0000 C CNN
 F 1 "D" H 4450 1976 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 4450 1850 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 4450 1850 50  0001 C CNN
 F 3 "~" H 4450 1850 50  0001 C CNN
 	1    4450 1850
 	1    0    0    -1  
@@ -144,7 +144,7 @@ U 1 1 5FC93CE7
 P 1950 2850
 F 0 "D2" H 1950 3067 50  0000 C CNN
 F 1 "D" H 1950 2976 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 1950 2850 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 1950 2850 50  0001 C CNN
 F 3 "~" H 1950 2850 50  0001 C CNN
 	1    1950 2850
 	1    0    0    -1  
@@ -179,7 +179,7 @@ U 1 1 5FC96EEE
 P 2900 2850
 F 0 "D7" H 2900 3067 50  0000 C CNN
 F 1 "D" H 2900 2976 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 2900 2850 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 2900 2850 50  0001 C CNN
 F 3 "~" H 2900 2850 50  0001 C CNN
 	1    2900 2850
 	1    0    0    -1  
@@ -203,7 +203,7 @@ U 1 1 5FC97F3B
 P 3700 2850
 F 0 "D11" H 3700 3067 50  0000 C CNN
 F 1 "D" H 3700 2976 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 3700 2850 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 3700 2850 50  0001 C CNN
 F 3 "~" H 3700 2850 50  0001 C CNN
 	1    3700 2850
 	1    0    0    -1  
@@ -227,7 +227,7 @@ U 1 1 5FC99381
 P 4450 2850
 F 0 "D16" H 4450 3067 50  0000 C CNN
 F 1 "D" H 4450 2976 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 4450 2850 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 4450 2850 50  0001 C CNN
 F 3 "~" H 4450 2850 50  0001 C CNN
 	1    4450 2850
 	1    0    0    -1  
@@ -240,7 +240,7 @@ U 1 1 5FC9D4B6
 P 1950 3750
 F 0 "D3" H 1950 3967 50  0000 C CNN
 F 1 "D" H 1950 3876 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 1950 3750 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 1950 3750 50  0001 C CNN
 F 3 "~" H 1950 3750 50  0001 C CNN
 	1    1950 3750
 	1    0    0    -1  
@@ -275,7 +275,7 @@ U 1 1 5FC9D4C9
 P 2900 3750
 F 0 "D8" H 2900 3967 50  0000 C CNN
 F 1 "D" H 2900 3876 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 2900 3750 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 2900 3750 50  0001 C CNN
 F 3 "~" H 2900 3750 50  0001 C CNN
 	1    2900 3750
 	1    0    0    -1  
@@ -299,7 +299,7 @@ U 1 1 5FC9D4D6
 P 3700 3750
 F 0 "D12" H 3700 3967 50  0000 C CNN
 F 1 "D" H 3700 3876 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 3700 3750 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 3700 3750 50  0001 C CNN
 F 3 "~" H 3700 3750 50  0001 C CNN
 	1    3700 3750
 	1    0    0    -1  
@@ -323,7 +323,7 @@ U 1 1 5FC9D4E3
 P 4450 3750
 F 0 "D17" H 4450 3967 50  0000 C CNN
 F 1 "D" H 4450 3876 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 4450 3750 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 4450 3750 50  0001 C CNN
 F 3 "~" H 4450 3750 50  0001 C CNN
 	1    4450 3750
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 1 1 5FCA12D6
 P 1950 4600
 F 0 "D4" H 1950 4817 50  0000 C CNN
 F 1 "D" H 1950 4726 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 1950 4600 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 1950 4600 50  0001 C CNN
 F 3 "~" H 1950 4600 50  0001 C CNN
 	1    1950 4600
 	1    0    0    -1  
@@ -371,7 +371,7 @@ U 1 1 5FCA12E9
 P 2900 4600
 F 0 "D9" H 2900 4817 50  0000 C CNN
 F 1 "D" H 2900 4726 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 2900 4600 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 2900 4600 50  0001 C CNN
 F 3 "~" H 2900 4600 50  0001 C CNN
 	1    2900 4600
 	1    0    0    -1  
@@ -395,7 +395,7 @@ U 1 1 5FCA12F6
 P 3700 4600
 F 0 "D13" H 3700 4817 50  0000 C CNN
 F 1 "D" H 3700 4726 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 3700 4600 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 3700 4600 50  0001 C CNN
 F 3 "~" H 3700 4600 50  0001 C CNN
 	1    3700 4600
 	1    0    0    -1  
@@ -419,7 +419,7 @@ U 1 1 5FCA1303
 P 4450 4600
 F 0 "D18" H 4450 4817 50  0000 C CNN
 F 1 "D" H 4450 4726 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 4450 4600 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 4450 4600 50  0001 C CNN
 F 3 "~" H 4450 4600 50  0001 C CNN
 	1    4450 4600
 	1    0    0    -1  
@@ -432,7 +432,7 @@ U 1 1 5FCA48A9
 P 1950 5450
 F 0 "D5" H 1950 5667 50  0000 C CNN
 F 1 "D" H 1950 5576 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 1950 5450 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 1950 5450 50  0001 C CNN
 F 3 "~" H 1950 5450 50  0001 C CNN
 	1    1950 5450
 	1    0    0    -1  
@@ -467,7 +467,7 @@ U 1 1 5FCA48C9
 P 3700 5450
 F 0 "D14" H 3700 5667 50  0000 C CNN
 F 1 "D" H 3700 5576 50  0000 C CNN
-F 2 "footprint:Diode_TH_SOD123" H 3700 5450 50  0001 C CNN
+F 2 "Diodes_SMD:Diode_TH_SOD123" H 3700 5450 50  0001 C CNN
 F 3 "~" H 3700 5450 50  0001 C CNN
 	1    3700 5450
 	1    0    0    -1  
@@ -779,122 +779,8 @@ Wire Wire Line
 	5700 2150 5700 2300
 Wire Wire Line
 	5700 1350 6250 1350
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5FCEF804
-P 9300 1350
-F 0 "H6" H 9400 1396 50  0000 L CNN
-F 1 "MountingHole" H 9400 1305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9300 1350 50  0001 C CNN
-F 3 "~" H 9300 1350 50  0001 C CNN
-	1    9300 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 5FCEFF4E
-P 9300 1550
-F 0 "H7" H 9400 1596 50  0000 L CNN
-F 1 "MountingHole" H 9400 1505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9300 1550 50  0001 C CNN
-F 3 "~" H 9300 1550 50  0001 C CNN
-	1    9300 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 5FCF347A
-P 9300 1750
-F 0 "H8" H 9400 1796 50  0000 L CNN
-F 1 "MountingHole" H 9400 1705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9300 1750 50  0001 C CNN
-F 3 "~" H 9300 1750 50  0001 C CNN
-	1    9300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 5FCF6A76
-P 9300 1950
-F 0 "H9" H 9400 1996 50  0000 L CNN
-F 1 "MountingHole" H 9400 1905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9300 1950 50  0001 C CNN
-F 3 "~" H 9300 1950 50  0001 C CNN
-	1    9300 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 5FCF9F59
-P 9300 2150
-F 0 "H10" H 9400 2196 50  0000 L CNN
-F 1 "MountingHole" H 9400 2105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9300 2150 50  0001 C CNN
-F 3 "~" H 9300 2150 50  0001 C CNN
-	1    9300 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H11
-U 1 1 5FCFE769
-P 10150 1350
-F 0 "H11" H 10250 1396 50  0000 L CNN
-F 1 "MountingHole" H 10250 1305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10150 1350 50  0001 C CNN
-F 3 "~" H 10150 1350 50  0001 C CNN
-	1    10150 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H12
-U 1 1 5FCFE76F
-P 10150 1550
-F 0 "H12" H 10250 1596 50  0000 L CNN
-F 1 "MountingHole" H 10250 1505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10150 1550 50  0001 C CNN
-F 3 "~" H 10150 1550 50  0001 C CNN
-	1    10150 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H13
-U 1 1 5FCFE775
-P 10150 1750
-F 0 "H13" H 10250 1796 50  0000 L CNN
-F 1 "MountingHole" H 10250 1705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10150 1750 50  0001 C CNN
-F 3 "~" H 10150 1750 50  0001 C CNN
-	1    10150 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H14
-U 1 1 5FCFE77B
-P 10150 1950
-F 0 "H14" H 10250 1996 50  0000 L CNN
-F 1 "MountingHole" H 10250 1905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10150 1950 50  0001 C CNN
-F 3 "~" H 10150 1950 50  0001 C CNN
-	1    10150 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H15
-U 1 1 5FCFE781
-P 10150 2150
-F 0 "H15" H 10250 2196 50  0000 L CNN
-F 1 "MountingHole" H 10250 2105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10150 2150 50  0001 C CNN
-F 3 "~" H 10150 2150 50  0001 C CNN
-	1    10150 2150
-	1    0    0    -1  
-$EndComp
 Text Notes 8250 1200 0    50   ~ 0
 Holes for PCB
-Text Notes 9100 1200 0    50   ~ 0
-Holes for Plate
-Text Notes 9950 1200 0    50   ~ 0
-Holes for Base
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K-FN1
 U 1 1 5FD59D56
@@ -965,50 +851,6 @@ Wire Wire Line
 	9050 3100 9050 2950
 Wire Wire Line
 	9050 2950 9050 2800
-$Comp
-L panelization:mouse-bites H19
-U 1 1 5FE6A655
-P 7500 1600
-F 0 "H19" H 7628 1396 50  0000 L CNN
-F 1 "mouse-bites" H 7628 1305 50  0000 L CNN
-F 2 "Keebio-Parts:breakaway-mousebites" H 7500 1600 50  0001 C CNN
-F 3 "" H 7500 1600 50  0001 C CNN
-	1    7500 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L panelization:mouse-bites H18
-U 1 1 5FE6A2C7
-P 7500 1250
-F 0 "H18" H 7628 1046 50  0000 L CNN
-F 1 "mouse-bites" H 7628 955 50  0000 L CNN
-F 2 "Keebio-Parts:breakaway-mousebites" H 7500 1250 50  0001 C CNN
-F 3 "" H 7500 1250 50  0001 C CNN
-	1    7500 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L panelization:mouse-bites H17
-U 1 1 5FE69F24
-P 7500 900
-F 0 "H17" H 7628 696 50  0000 L CNN
-F 1 "mouse-bites" H 7628 605 50  0000 L CNN
-F 2 "Keebio-Parts:breakaway-mousebites" H 7500 900 50  0001 C CNN
-F 3 "" H 7500 900 50  0001 C CNN
-	1    7500 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L panelization:mouse-bites H16
-U 1 1 5FE6952B
-P 7500 1950
-F 0 "H16" H 7628 1746 50  0000 L CNN
-F 1 "mouse-bites" H 7628 1655 50  0000 L CNN
-F 2 "Keebio-Parts:breakaway-mousebites" H 7500 1950 50  0001 C CNN
-F 3 "" H 7500 1950 50  0001 C CNN
-	1    7500 1950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5FD00893
