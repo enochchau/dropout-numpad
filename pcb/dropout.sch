@@ -895,8 +895,6 @@ Text Notes 9100 1200 0    50   ~ 0
 Holes for Plate
 Text Notes 9950 1200 0    50   ~ 0
 Holes for Base
-Text Notes 7700 2650 0    50   ~ 0
-mini-usb\n
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K-FN1
 U 1 1 5FD59D56

@@ -1,6 +1,5 @@
 (sym_lib_table
-  (lib (name promicro)(type Legacy)(uri G:/Documents/KiCad/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
-  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "G:/Documents/KiCad/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
-  (lib (name mykeebio)(type Legacy)(uri G:/Documents/KiCad/Keebio-Parts.pretty/mykeebio.lib)(options "")(descr ""))
-  (lib (name panelization)(type Legacy)(uri G:/Documents/KiCad/Panelization.pretty/panelization.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "G:/Documents/KiCad/library/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri G:/Documents/KiCad/library/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name panelization)(type Legacy)(uri G:/Documents/KiCad/library/Panelization.pretty/panelization.lib)(options "")(descr ""))
 )
