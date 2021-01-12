@@ -47,10 +47,14 @@ Amount | Part | Package
 * Resistor can be omitted if num-lock led is not used.
 
 ## Pictures
+### rev 0.5
+![rev0.5](graphics/rev0.5.jpg "rev0.5")
+
+### pcb
 ![pcb](./graphics/pcb.png "PCB")
 
+### rev 0.1
 ![rev0.1](./graphics/pcb-top-down.JPG "rev0.1")
-rev 0.1
 
 ## License
 Hardware designs are under the MIT license. QMK is under the GPL v2 license therefore, the firmware is also under the GPLv2 license.
