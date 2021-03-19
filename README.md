@@ -1,5 +1,6 @@
 # Dropout 
-### (mechanical numpad w/ roatry encoder)
+
+(mechanical numpad w/ roatry encoder)
 
 ![droput-completed](/graphics/completed_dropout.jpg)
 
@@ -19,14 +20,15 @@ Amount | Part | Dimensions
 4 | rubber bumpon feet
 
 Sandwhich! case (parts in this order from top down)
-*  Plate
-*  PCB
-*  Base
+
+1. Plate
+2. PCB
+3. Base
 
 ### PCB Components
 Amount | Part | Package
 --- | --- | ---
-17 | diodes (1n4148 recommended) | SOD-123 (SMD) or DO-35 (THT)
+18 | diodes (1n4148 recommended) | SOD-123 (SMD) or DO-35 (THT)
 1 | resistor (333 Ohms) | 0805
 2 | capacitors (10nF) | 0805
 1 | led | 1.8mm
