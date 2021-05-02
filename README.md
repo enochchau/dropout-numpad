@@ -56,11 +56,13 @@ Amount | Part | Package
 
 2. Solder on capacitors C1 and C2. These are located near the rotary encoder.
 ![capacitor location](/graphics/build_guide/2_capacitors.jpg)
+![capacitor soldered on](/graphics/build_guide/2_capacitors_2.jpg)
 
 3. Solder on the resistor R1. It is near the num lock key. This resistor is to limit the current going to the num-lock led.
 
 4. Solder on the SPST reset switch.
 ![resistor and reset switch](/graphics/build_guide/3_4_resistor&reset.jpg)
+![resistor and reset switch soldered on](/graphics/build_guide/3_4_resistor&reset_2.jpg)
 
 5. Solder on the Pro Micro header pins with the short side down. DO NOT solder on the Pro Micro.
 ![head pin direction](/graphics/build_guide/5_headerpins.jpg)
@@ -69,10 +71,15 @@ Amount | Part | Package
 ![encoder](/graphics/build_guide/6_encoder.jpg)
 
 7. Flip the board over to the top side. You should now see the stencil art of the the person. Put two 2U stablizers on the board for the Zero and Enter keys.
+![stabs on pcb](/graphics/build_guide/7_stabs.jpg)
     1. If you are using Kailh Box switches, solder on the num-lock LED before putting the switch on the board.
     2. If you are using regular Cherry, Gateron, etc. you can wait to solder the num-lock LED after all the switches are soldered on.
 
+The polarity of the led is shown below.
+![led direction](/graphics/build_guide/7_1_led_dir.jpg)
+
 8. Put the switches on the plate. Line up the plate with the pcb and push the two parts together. There may be some friction but as long as none of the switch pins get bent it is okay.
+![switches in plate](/grpahics/build_guide/8_switches.jpg)
 
 9. Flip the PCB over to the bottom side. As you solder on the switches, apply some pressure to push the plate into the PCB to ensure that the switches are flush with the PCB.
 
@@ -80,6 +87,8 @@ Amount | Part | Package
 Clip the long header pins to be flush with the holes on the Pro Micro.
 Then, solder the Pro Micro to the header pins.
 ![pro micro clip pins](/graphics/build_guide/10_promicro.jpg)
+![clip flush](/graphics/build_guide/10_clip_flush.jpg)
+
 11. Put the standoffs through the holes on the top of the plate and screw them in.
 
 12. Get the bottom plate and screw the other end of the standoffs into the bottom plate. The standoffs should go through the holes in the PCB.
